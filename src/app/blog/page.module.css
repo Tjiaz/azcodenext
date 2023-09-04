@@ -1,0 +1,27 @@
+.mainContainer {
+  display: flex;
+  gap: 50px;
+
+  flex-direction: column;
+}
+
+.image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.desc {
+  font-size: 0.7rem;
+  color: #999;
+}
